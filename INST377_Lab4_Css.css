@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+body{
+    background-color: powderblue;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 800px;
+}
+
+.sections {
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    background-color: #adebb3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: 80px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+}
